@@ -1,0 +1,6 @@
+python-telegram-bot
+aiohttp
+tenacity
+psutil
+numpy
+TA-Lib
