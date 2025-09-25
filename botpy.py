@@ -64,8 +64,8 @@ def load_config():
         raise
 
 config = load_config()
-BOT_TOKEN = config['telegram']['7571151744:AAEpudv-jfqSYT3dlRsH5EfS8PjuFjx6Mc0']
-OWNER_CHAT_ID = str(config['telegram']['7571151744'])
+BOT_TOKEN = config['telegram']['bot_token']
+OWNER_CHAT_ID = str(config['telegram']['chat_id'])
 TRADING_CONFIG = config['trading']
 
 # Helper for Config Keys
