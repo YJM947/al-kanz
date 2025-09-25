@@ -1,0 +1,35 @@
+{
+  "telegram": {
+    "bot_token": "7571151744:AAEpudv-jfqSYT3dlRsH5EfS8PjuFjx6Mc0",
+    "chat_id": "7571151744"
+  },
+  "trading": {
+    "starting_balance_usd": 50.0,
+    "watched_tokens": [
+      "SOL-USDC",
+      "BTC-USDC",
+      "ETH-USDC",
+      "BONK-SOL",
+      "WIF-SOL"
+    ],
+    "momentum_threshold_5m": 5.0,
+    "take_profit_pct": 15.0,
+    "stop_loss_pct": -8.0,
+    "max_positions": 3,
+    "buy_amount_usd": 10.0,
+    "poll_seconds": 5,
+    "objective": {
+      "max_market_cap_usd": 300000000,
+      "min_daily_volume_usd": 1000000
+    },
+    "position_rules": {
+      "integer_only_threshold_usd": 1.0,
+      "min_trade_units": {
+        "BTC-USDC": 0.0001,
+        "ETH-USDC": 0.001,
+        "SOL-USDC": 0.01
+      }
+    },
+    "strict_smallcap": true
+  }
+}
