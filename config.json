@@ -19,8 +19,6 @@
     "buy_amount_usd": 10.0,
     "poll_seconds": 5,
     "objective": {
-      "start_date": "2025-09-12",
-      "end_date": "2025-10-12",
       "max_market_cap_usd": 300000000,
       "min_daily_volume_usd": 1000000
     },
